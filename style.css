@@ -1,0 +1,129 @@
+@import url("https://fonts.googleapis.com/css2?family=Public+Sans:wght@300;400&family=Roboto:ital,wght@1,400;1,700;1,900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: cornsilk;
+  color: black;
+}
+h1 {
+  margin-top: 15px;
+  color: grey;
+  font-size: 1000;
+  font-weight: 600;
+  font-family: "Roboto", sans-serif;
+  text-transform: uppercase;
+  text-align: center;
+}
+header p {
+  text-align: center;
+  font-size: 1000;
+  font-weight: 700;
+  font-family: "Roboto", sans-serif;
+  margin-bottom: 40px;
+  margin-top: 20px;
+}
+ul {
+  text-align: center;
+}
+li {
+  display: inline-block;
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 15px;
+  margin-left: 50px;
+  margin-right: 50px;
+  width: 10%;
+  background-color: black;
+}
+a {
+  text-decoration: none;
+  font-size: large;
+  text-transform: uppercase;
+  font-family: "Raleway", sans-serif;
+  color: white;
+}
+li:hover {
+  background-color: gray;
+  cursor: pointer;
+}
+h2 {
+  margin-top: 15px;
+  color: black;
+  font-size: 1000;
+  font-weight: 800;
+  font-family: "Roboto", sans-serif;
+  text-transform: uppercase;
+  text-align: center;
+  text-decoration: underline;
+}
+h3 {
+  margin-top: 15px;
+  color: gray;
+  font-size: 1000;
+  font-weight: 600;
+  font-family: "Roboto", sans-serif;
+  text-transform: uppercase;
+  text-align: center;
+}
+p {
+  text-align: center;
+}
+img {
+  display: block;
+  margin: auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border: 10px solid gray;
+}
+figcaption {
+  text-align: center;
+}
+section#resume {
+  text-align: center;
+}
+h2#resume {
+  margin: 30px;
+}
+span {
+  text-decoration: none;
+  font-size: large;
+  text-transform: uppercase;
+  font-family: "Raleway", sans-serif;
+  color: white;
+  display: inline-block;
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 15px;
+  margin-left: 50px;
+  margin-right: 50px;
+  width: 10%;
+  background-color: black;
+}
+span:hover {
+  background-color: gray;
+  cursor: pointer;
+}
+section#contact div {
+  text-align: center;
+  font-size: larger;
+  margin-top: 20px;
+  text-transform: capitalize;
+  font-family: "Roboto", sans-serif;
+}
+footer {
+  margin-top: 20px;
+  text-align: center;
+  font-size: larger;
+  color: darkblue;
+  margin-bottom: 20px;
+  text-transform: capitalize;
+}
+hr {
+  margin-top: 20px;
+  font-size: 600;
+  color: gray;
+  border-width: 5px;
+}
